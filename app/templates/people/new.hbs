@@ -6,11 +6,6 @@
   {{/if}}
 </h3>
 
-<div>
-Name: {{input value=name}}
-</div>
-<div>
-  Age: {{input value=age}}
-</div>
+{{partial 'people/form'}}
 
 <button type="submit" {{action 'create'}}>Create</button>

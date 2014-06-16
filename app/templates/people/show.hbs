@@ -1,5 +1,8 @@
 <h3>Show Person {{id}}</h3>
 
+{{link-to 'Edit' 'people.edit' this}}
+{{!-- This refers to the current scope, which is the model/person we are currently in --}}
+
 <ul>
   <li>Name: {{name}}</li>
   <li>Age: {{age}}</li>
